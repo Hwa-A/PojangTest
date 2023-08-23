@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yuhan.yangpojang"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml
+10
+11    <!-- 인터넷 사용 권한 설정 추가 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <queries>
+14-->[com.kakao.sdk:v2-navi:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\5ebeee9713c18f53d2b9e35b43e23f35\transformed\v2-navi-2.15.0\AndroidManifest.xml:9:5-12:15
+15        <package android:name="com.locnall.KimGiSa" />
+15-->[com.kakao.sdk:v2-navi:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\5ebeee9713c18f53d2b9e35b43e23f35\transformed\v2-navi-2.15.0\AndroidManifest.xml:10:9-55
+15-->[com.kakao.sdk:v2-navi:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\5ebeee9713c18f53d2b9e35b43e23f35\transformed\v2-navi-2.15.0\AndroidManifest.xml:10:18-52
+16        <package android:name="com.lguplus.navi" />
+16-->[com.kakao.sdk:v2-navi:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\5ebeee9713c18f53d2b9e35b43e23f35\transformed\v2-navi-2.15.0\AndroidManifest.xml:11:9-52
+16-->[com.kakao.sdk:v2-navi:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\5ebeee9713c18f53d2b9e35b43e23f35\transformed\v2-navi-2.15.0\AndroidManifest.xml:11:18-49
+17        <package android:name="com.kakao.talk" />
+17-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:10:9-50
+17-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:10:18-47
+18        <package android:name="com.kakao.talk.alpha" />
+18-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:11:9-56
+18-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:11:18-53
+19        <package android:name="com.kakao.talk.sandbox" />
+19-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:12:9-58
+19-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:12:18-55
+20        <package android:name="com.kakao.onetalk" />
+20-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:13:9-53
+20-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:13:18-50
+21
+22        <intent>
+22-->[com.kakao.sdk:v2-common:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\006698ea6d75ac4dc854487a2d859841\transformed\v2-common-2.15.0\AndroidManifest.xml:15:9-21:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:70:17-69
+23-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:70:25-66
+24
+25            <category android:name="android.intent.category.BROWSABLE" />
+25-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:72:17-78
+25-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:72:27-75
+26
+27            <data android:scheme="https" />
+27-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:74:17-76:78
+27-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:76:21-75
+28        </intent>
+29    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:5-79
+31-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:22-76
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.yuhan.yangpojang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.yuhan.yangpojang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:9:5-79:19
+40        android:name="com.yuhan.yangpojang.CustomApplication"
+40-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:10:9-42
+41        android:allowBackup="true"
+41-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:11:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.9.0] C:\Users\you97\.gradle\caches\transforms-3\726d67165b7764a6227a1ba6190873b3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+43        android:dataExtractionRules="@xml/data_extraction_rules"
+43-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:12:9-65
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:fullBackupContent="@xml/backup_rules"
+46-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:13:9-54
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:14:9-43
+48        android:label="@string/app_name"
+48-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:15:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:16:9-54
+50        android:supportsRtl="true"
+50-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:17:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.YangPojang"
+52-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:18:9-48
+53        android:usesCleartextTraffic="true" >
+53-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:10:18-53
+54        <activity
+54-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:23:9-25:40
+55            android:name="com.yuhan.yangpojang.LoginLogic"
+55-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:24:13-39
+56            android:exported="false" />
+56-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:25:13-37
+57        <activity
+57-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:28:9-30:40
+58            android:name="com.yuhan.yangpojang.KakaoLoginButton"
+58-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:29:13-45
+59            android:exported="false" />
+59-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:30:13-37
+60        <activity
+60-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:32:9-40:20
+61            android:name="com.yuhan.yangpojang.MainActivity"
+61-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:33:13-41
+62            android:exported="true" >
+62-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:34:13-36
+63            <intent-filter>
+63-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:35:13-39:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:36:17-69
+64-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:36:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:38:17-77
+66-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:38:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:41:9-43:39
+70            android:name="com.yuhan.yangpojang.LoginPUserInfo"
+70-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:42:13-43
+71            android:exported="true" />
+71-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:43:13-36
+72        <activity
+72-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:44:9-46:40
+73            android:name="com.yuhan.yangpojang.ShowUserInfo"
+73-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:45:13-41
+74            android:exported="false" />
+74-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:46:13-37
+75        <activity
+75-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:47:9-49:39
+76            android:name="com.yuhan.yangpojang.LoginActivity"
+76-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:48:13-42
+77            android:exported="true" /> <!-- <intent-filter> -->
+77-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:49:13-36
+78        <!-- <action android:name="android.intent.action.MAIN" /> -->
+79        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+80        <!-- </intent-filter> -->
+81
+82
+83        <!-- 카카오 네이티브 앱 키를 res > values > string에 저장 -->
+84        <meta-data
+84-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:55:9-57:53
+85            android:name="com.kakao.sdk.AppKey"
+85-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:56:13-48
+86            android:value="@string/kakao_app_key" />
+86-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:57:13-50
+87        <meta-data
+87-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:59:9-61:66
+88            android:name="com.kakao.sdk.RedirectUri"
+88-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:60:13-53
+89            android:value="http://hongirin1748.dothome.co.kr/" />
+89-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:61:13-63
+90
+91        <!-- 카카오 정보 동의 화면 출력 페이지 -->
+92        <activity
+92-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:65:9-78:20
+93            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+93-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:66:13-70
+94            android:exported="true"
+94-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:67:13-36
+95            android:launchMode="singleTask"
+95-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:18:13-44
+96            android:theme="@style/TransparentCompat" >
+96-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:19:13-53
+97            <intent-filter>
+97-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:69:13-77:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:70:17-69
+98-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:70:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:71:17-76
+100-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:71:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:72:17-78
+101-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:72:27-75
+102
+103                <data
+103-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:74:17-76:78
+104                    android:host="oauth"
+104-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:75:21-41
+105                    android:scheme="kakaoec1b641eb56d8439d41a10ee3241ce37" />
+105-->C:\Users\you97\AndroidStudioProjects\project\PojangTest\YangPojang\app\src\main\AndroidManifest.xml:76:21-75
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:11:9-14:59
+109            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
+109-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:12:13-72
+110            android:theme="@style/DayNightFull"
+110-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:13:13-48
+111            android:windowSoftInputMode="adjustNothing" />
+111-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:14:13-56
+112        <activity
+112-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:15:9-17:52
+113            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
+113-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:16:13-73
+114            android:theme="@style/DayNightPopup" />
+114-->[com.kakao.sdk:v2-friend:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\9f888a46cdb0f91081e25b6598ffef77\transformed\v2-friend-2.15.0\AndroidManifest.xml:17:13-49
+115        <activity
+115-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:10:9-15:56
+116            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+116-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:11:13-67
+117            android:configChanges="orientation|screenSize|keyboardHidden"
+117-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:12:13-74
+118            android:exported="false"
+118-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:13:13-37
+119            android:launchMode="singleTask"
+119-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:14:13-44
+120            android:theme="@style/TransparentCompat" />
+120-->[com.kakao.sdk:v2-auth:2.15.0] C:\Users\you97\.gradle\caches\transforms-3\1f90865a67ba1b0f0022ee301fc4bf55\transformed\v2-auth-2.15.0\AndroidManifest.xml:15:13-53
+121
+122        <service
+122-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+123            android:name="com.google.firebase.components.ComponentDiscoveryService"
+123-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:29:13-84
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+125            android:exported="false" >
+125-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:30:13-37
+126            <meta-data
+126-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+127                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+127-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-database:20.2.2] C:\Users\you97\.gradle\caches\transforms-3\0e5aac5922fa968c783d28ceb900527b\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+129        </service>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\fae39e8638d5a2b55c1102659ccf48bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\fae39e8638d5a2b55c1102659ccf48bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\fae39e8638d5a2b55c1102659ccf48bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\fae39e8638d5a2b55c1102659ccf48bc\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+138            android:authorities="com.yuhan.yangpojang.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:20.3.2] C:\Users\you97\.gradle\caches\transforms-3\6e6e8e7a4b96e75aa80f155489d5291c\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\f366888f5d3902ec4dd43aef15131e7f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\f366888f5d3902ec4dd43aef15131e7f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\you97\.gradle\caches\transforms-3\f366888f5d3902ec4dd43aef15131e7f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+146
+147        <provider
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+148            android:name="androidx.startup.InitializationProvider"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+149            android:authorities="com.yuhan.yangpojang.androidx-startup"
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+150            android:exported="false" >
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+151            <meta-data
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+153                android:value="androidx.startup" />
+153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\you97\.gradle\caches\transforms-3\d45b802018381dbc216c936377211f5e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+154            <meta-data
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\you97\.gradle\caches\transforms-3\e5b5c444bc30ece09735f49f516dbc2d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+155-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\you97\.gradle\caches\transforms-3\e5b5c444bc30ece09735f49f516dbc2d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+156                android:value="androidx.startup" />
+156-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\you97\.gradle\caches\transforms-3\e5b5c444bc30ece09735f49f516dbc2d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+157        </provider>
+158    </application>
+159
+160</manifest>
